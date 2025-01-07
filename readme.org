@@ -1,0 +1,1 @@
+Dette repo indeholder en præsentation og tilhørende øvelser omkring elektricitet henvendt til fysikundervisningen. Find præsentationen på: https://jacobdebel.github.io/fysik_elektricitet/Elektricitet.

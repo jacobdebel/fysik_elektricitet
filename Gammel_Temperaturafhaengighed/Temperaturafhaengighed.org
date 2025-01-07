@@ -1,0 +1,51 @@
+#+title: En modstands temperaturafhængighed
+#+subtitle: Elektricitet
+#+author: Jacob Debel
+#+date: Fysik B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=3.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+* Motivation
+Der er en klar sammenhæng mellem en elektrisk strøm igennem en metallisk leder og varmeudvikling, hvilken er sammenfattet i Joules lov.
+
+I 1900 antog den tyske fysiker P. Drude at ledningselektronerne støder ind i ionerne i lederen, hvilket bevirker, at ionerne begynder at vibrere, og lederen dermed bliver varm.
+Ergo ved at sende større og større strømme gennem en leder vil temperaturen på lederen stige.
+
+Spørgsmålet er, om det omvendte også er tilfældet. *Øges en leders modstand, hvis man øger dennes temperatur?*
+
+* Teori
+En model for en modstands temperaturafhængighed lyder som følger:
+
+$$R_t = R_0 \left( 1 + \alpha \left( t - t_0 \right) \right)\,,$$
+
+hvor $R_t$ er lederens modstand ved temperaturen $t$ og $R_0$ er modstanden ved temperaturen $t_0$.
+
+Det er denne sammenhæng I skal forsøge at eftervise.
+
+
+* Udstyr
+- Termometer
+- Ohmmeter
+- 3 forskellige ledere (prober)
+- ledninger
+- 2 store bægerglas
+- Varmeapparat 
+
+* Fremgangsmåde
+- Et bægerglas et fyldt med vand, som er sat til at “simre” over varmeapparatet.
+- Det andet bæreglas er fyldt med koldt vand fra hanen.
+- En afkølet probe (opbevaret i det “kolde” bægerglas) forbindes til ohmmeteret og proben nedsænkes i det varme vand.
+- Noter løbende sammenhørende værdier af modstand og temperatur.
+- Udfør forsøget for de 3 forskellige prober.
+- Målingerne indsættes i et regneark og der tegnes en graf over modstanden som funktion af temperaturen.
+ 
+Vi er nu klar til at bestemme temperaturkoefficienterne for de tre prober ved en senere undervisningslektion.
+

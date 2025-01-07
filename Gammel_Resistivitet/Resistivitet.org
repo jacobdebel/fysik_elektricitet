@@ -1,0 +1,33 @@
+#+title: Resistivitet
+#+subtitle: Elektricitet
+#+author: Jacob Debel
+#+date: Fysik B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=3.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+* Motivation
+Vi kan godt blive enige om, at modstanden i en elektrisk ledende tråd må afhænge af trådens længde og tværsnitsareal. Spørgsmålet er dog imidlertid præcist, hvordan denne sammenhæng er.
+Det er dette I skal finde ud af i dette eksperiment.
+* Udstyr
+- 2 “ruller” af 10 m “tynd” kobberledning
+- 1 “rulle” af 10 m “tyk” kobberledning
+- 3 A spændingsforsyning
+- voltmeter
+- skydelærer
+* Fremgangsmåde
+- Mål spændingen over de to forskellige kobberledninger og aflæs strømmen igennem.
+- Mål diametrene af trådene med skydelæreren og beregn tværsnitsarealet.
+- Beregn modstanden i ledningerner. Er der en sammenhæng mellem tværsnitsareal og modstand? 
+- Serieforbind  nu de to “tynde” ledninger og mål strøm og spænding igen.
+- Beregn igen modstanden i den samlede ledning. Er der en sammenhæng mellem længde og modstand?
+- Nu er I i stand til at bestemme proportionalitetsfaktoren mellem modstand og længde/areal. Denne proportionalitetsfaktor kaldes resistiviteten.
+
+Vi diskuterer sammenhængene ved en senere undervisningslektion.

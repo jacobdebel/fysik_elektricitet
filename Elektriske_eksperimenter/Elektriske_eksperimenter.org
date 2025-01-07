@@ -1,0 +1,175 @@
+#+title: Elektriske eksperimenter
+#+subtitle: Elektricitet
+#+author: Jacob Debel
+#+date: Fysik B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage{enumitem}
+#+latex_header: \usepackage[margin=2.3cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:t timestamp:nil
+
+* Indledning
+:PROPERTIES:
+:UNNUMBERED:
+:END:
+I skal arbejde med 3 forskellige eksperimenter. Der skal udarbejdes en samet rapport med et fælles teoriafsnit omkring elektricitet, men hvor resten af rapporten er delt mellem de 3 eksperimenter. Slut af med en samlet konklusion.
+
+#+TOC: headlines
+
+#+begin_export latex
+\newpage
+#+end_export
+
+
+* En sammenkobling af pærer
+
+På figur [[forsoeg_1]] ses en sammenkobling af en spændingskilde og 4 ens pærer. Spændingskilden er repræsenteret ved $\mathcal{E}$ mens pærerne er repræsenteret ved $R_1$, $R_2$, $R_3$ og $R_4$.
+
+#+name: forsoeg_1
+#+caption: $\mathcal{E}$ repræsenterer en spændingskilde, mens $R_1$, $R_2$, $R_3$ og $R_4$ repræsenterer 4 ens pærer.
+#+attr_latex: :width 0.4\linewidth
+[[./img/forsoeg_1.png]]
+
+** Udstyr
+
+Til eksperimentet skal der anvendes:
+
+#+attr_latex: :options [noitemsep]
+- En spændingskilde 
+- 4 sokler
+- 4 pærer
+- Et amperemeter
+- Et voltmeter
+- Diverse ledninger til at opbygge kredsløbet
+** Fremgangsmåde
+
+I skal udføre følgende og besvare spørgsmålene. Det skal være nogle gode svar, som skrives ind i databehandlingsafsnittet og/eller diskussionen i rapporten:
+
+#+attr_latex: :options [noitemsep]
+1. Opstil det viste kredsløb.
+2. Bestem strømmen gennem og spændingen over alle pærerne.
+3. Beregn den afsatte effekt i hver pære.
+4. Hvilken pære/hvilke pærer lyser kraftigst?
+
+Fjern nu pæren repræsenteret ved $R_4$.
+
+#+attr_latex: :options [noitemsep]
+5. [@5] Hvad er nu strømmen igennem og spændingen over hver af de tilbageværende pærer?
+6. Hvad er den afsatte effekt i hver af de tilbageværende pærer?
+7. Hvilken pære/hvilke pærer lyser nu henholdsvis kraftigere og svagere ved fjernelsen af pære $R_4$?
+
+   Diskutér, hvad grunden hertil kan være.
+
+#+begin_export latex
+\newpage
+#+end_export
+
+* Bestemmelse af ukendte modstande
+
+** Motivation for eksperimentet
+
+Det kan godt være, at der findes fine teoretiske formler for, hvordan modstande adderes i henholdsvis serie- og parallelkoblinger. Dog, for at få et fortroligt kendskab til elektriske kredsløb, er det ikke nok med teorietiske beregninger, man er også nødt til at eksperimentere.
+
+I skal da bestemme den ukendte modstand i hver af de 3 udleverede kredsløb udelukkende ved at benytte et voltmeter og de love og regler, som I kender fra ellære. I kan se kredsløbene på figur [[forsoeg_2]].
+
+#+name: forsoeg_2
+#+caption: De 3 udleverede kredsløb, hvor den ukendte modstand gemmer sig undet det grønne stykke plast.
+#+attr_latex: :width 0.4\linewidth
+[[./img/forsoeg_2.jpg]]
+
+** udstyr
+
+Følgende udstyr skal anvendes til eksperimentet:
+
+#+attr_latex: :options [noitemsep]
+- Et multimeter indstillet som voltmeter
+- De 3 udleverede kredsløb
+- 3 9V-batterier - et til hvert kredsløb
+
+** Fremgangsmåde
+
+Der er ikke mange instrukser til dette eksperiment, men:
+
+#+attr_latex: :options [noitemsep]
+2. Tilslut batteriet til kredsløbet.
+3. Mål spændingsforskellene forskellige (fornuftige) steder i kredsløbene.
+4. Beregn den ukendte modstand.
+5. Tjek om jeres beregning stemmer overens med den faktiske modstand. Det grønne stykke plast kan trækkes til siden, så I kan aflæse modstanden. Det kræver dog kendskab til at aflæse ringenes værdier. Denne viden kan I finde på <https://dk.farnell.com/modstand-farve-kode-udregner>.
+#+begin_export latex
+\newpage
+#+end_export
+
+* Bestemmelse af indre modstand, kortslutningsstrøm og hvilespænding for et batteri
+
+** Motivation for eksperimentet
+
+Typisk når vi har talt om spændingskilder/batterier, har vi antaget at deres spænding er konstant, og således udfører et konstant arbejde pr. ladning. Dette er dog ikke sandt i virkeligheden. 
+Tænk på, at hvis der skulle trækkes en (uendelig) stor strøm, så skulle batteriet kunne udføre et uendeligt stort arbejde. Dette giver komplikationer med loven om energibevarelse.
+I stedet har det vist sig, at hvis man forsøger at trække en stor strøm ud af batteriet, så falder polspændingen (altså spændingen over batteripolerne og dermed også over det tilsluttede kredsløb).
+
+** Teori
+
+For at beskrive det føromtalte fald i spænding som funktion af strømmen, defineres *hvilespændingen* som polspændingen, når der løber en uendeligt lille strøm. Hvilespændingen er før i tiden også blevet omtalt som den *elektromotoriske kraft*.
+En fysisk spændingskilde, eksempelvis et batteri, kan da *modelleres* som en seriekobling af en *superspændingskilde*, der altid levere en spænding på $U_0$, og så en *indre modstand*, $R_i$. Forbindes spændingskilden(batteriet) nu til en *ydre modstand*, $R_y$, som det kan ses på figur [[forsoeg_3]], så kan følgende udtryk skrives op ved hjælp af Ohms lov for kredsløbet:
+
+#+name: forsoeg_3
+#+caption: En model for en spændingskilde bestående af en superspændingskilde i serie med en indre modstand, som så igen er i serie med en ydre modstand. Figuren er lånt fra <https://orbithtxb.systime.dk/index.php?id=558>.
+#+attr_latex: :width 0.6\linewidth
+[[./img/forsoeg_3.png]]
+
+$$U_0 = R_i \cdot I + R_y \cdot I \,.$$
+
+Dog er $R_y \cdot I = U_p$, hvor $U_p$ er *polspændingen*, og forrige ligning kan omskrives til:
+
+\begin{align*}
+    U_0 &= R_i \cdot I + U_p \iff \\
+    U_0 - R_i \cdot I &= U_p \iff \\
+    U_p &= - R_i \cdot I + U_0 \,.
+\end{align*}
+
+Hvis det sidste udtryk sammenlignes med ligningen for en ret linje
+
+$$y = a \cdot x + b \,,$$
+
+kan det ses, at $U_p$ svarer til $y$, $-R_i$ svarer til hældningstallet $a$, $I$ svarer til $x$ og $U_0$ svarer til skæringen med y-aksen. Dette kan også ses grafisk på figur [[forsoeg_3_2]], hvor sammenhængen er indtegnet i et ($I$, $U_p$)-koordinatsystem.
+
+#+name: forsoeg_3_2
+#+caption: Den matematiske sammenhæng mellem polspændingen som funktion af strømstyrken. Figuren er lånt fra <https://orbithtxb.systime.dk/index.php?id=558>.
+#+attr_latex: :width 0.6\linewidth
+[[./img/forsoeg_3_2.png]]
+
+Som det ses, vil polspændingen falde som funktion af strømstyrken.
+Det er præcis denne sammenhæng, der skal undersøges i dette eksperiment.
+
+** Udstyr
+
+Følgende udstyr skal anvendes til eksperimentet:
+
+#+attr_latex: :options [noitemsep]
+- 1 amperemeter
+- 1 multimeter indstillet som voltmeter
+- 1 dekaderesitor (en variabel modstand)
+- Diverse nye og gamle 9V-batterier
+- Diverser ledninger til at opbygge kredsløbet med
+  
+** Fremgangsmåde
+
+Følg skridtene nævnt her:
+
+#+name: forsoeg_3_3
+#+caption: Det ønskede kredsløb til bestemmelse af den indre modstand etc. i et batteri.
+#+attr_latex: :width 0.6\linewidth
+[[./img/forsoeg_3_3.png]]
+
+#+attr_latex: :options [noitemsep]
+1. Opstil et kredsløb som ligner det på figur [[forsoeg_3_3]]. Den stiplede boks repræsenterer et 9V-batteri.
+2. Sørg for at dekaderesistoren er indstillet til høje værdier til at begynde med. Ellers tappes batterierne alt for hurtigt for energi.
+3. Ændre på dekaderesistorens modstand og notér sammenhørende værdier af $U_p$ og $I$. Der skal opsamles mindst 10 målinger, gerne jævnt fordelt mellem tomgang (meget høj modstand) og kortsluttet tilstand (ingen modstand). **I må dog ikke kortslutte batterierne**.
+4. Plot de opsamlede datapunkter i et ($I$, $U_p$)-koordinatsystem. Dette kan gøres i et regneark eller ved hjælp af geogebra.
+5. *Fit* en ret linje til de plottede datapunkter, og aflæs/beregn, hvad henholdsvis hvilespændingen, kortslutningsstrømmen og den mindre modstand af batteriet er.

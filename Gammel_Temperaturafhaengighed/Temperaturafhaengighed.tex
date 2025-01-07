@@ -1,0 +1,76 @@
+% Intended LaTeX compiler: xelatex
+\documentclass[a4paper, 12pt]{article}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[danish]{babel}
+\usepackage{mathtools}
+\usepackage[margin=3.0cm]{geometry}
+\hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+\setlength{\parindent}{0em}
+\parskip 1.5ex
+\author{Jacob Debel}
+\date{Fysik B}
+\title{En modstands temperaturafhængighed\\\medskip
+\large Elektricitet}
+\hypersetup{
+ pdfauthor={Jacob Debel},
+ pdftitle={En modstands temperaturafhængighed},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.4 (Org mode 9.6.15)}, 
+ pdflang={Danish}}
+\begin{document}
+
+\maketitle
+
+\section*{Motivation}
+\label{sec:orgdf66835}
+Der er en klar sammenhæng mellem en elektrisk strøm igennem en metallisk leder og varmeudvikling, hvilken er sammenfattet i Joules lov.
+
+I 1900 antog den tyske fysiker P. Drude at ledningselektronerne støder ind i ionerne i lederen, hvilket bevirker, at ionerne begynder at vibrere, og lederen dermed bliver varm.
+Ergo ved at sende større og større strømme gennem en leder vil temperaturen på lederen stige.
+
+Spørgsmålet er, om det omvendte også er tilfældet. \textbf{Øges en leders modstand, hvis man øger dennes temperatur?}
+
+\section*{Teori}
+\label{sec:org8eda2f1}
+En model for en modstands temperaturafhængighed lyder som følger:
+
+$$R_t = R_0 \left( 1 + \alpha \left( t - t_0 \right) \right)\,,$$
+
+hvor \(R_t\) er lederens modstand ved temperaturen \(t\) og \(R_0\) er modstanden ved temperaturen \(t_0\).
+
+Det er denne sammenhæng I skal forsøge at eftervise.
+
+
+\section*{Udstyr}
+\label{sec:org656e7a9}
+\begin{itemize}
+\item Termometer
+\item Ohmmeter
+\item 3 forskellige ledere (prober)
+\item ledninger
+\item 2 store bægerglas
+\item Varmeapparat
+\end{itemize}
+
+\section*{Fremgangsmåde}
+\label{sec:org3624635}
+\begin{itemize}
+\item Et bægerglas et fyldt med vand, som er sat til at “simre” over varmeapparatet.
+\item Det andet bæreglas er fyldt med koldt vand fra hanen.
+\item En afkølet probe (opbevaret i det “kolde” bægerglas) forbindes til ohmmeteret og proben nedsænkes i det varme vand.
+\item Noter løbende sammenhørende værdier af modstand og temperatur.
+\item Udfør forsøget for de 3 forskellige prober.
+\item Målingerne indsættes i et regneark og der tegnes en graf over modstanden som funktion af temperaturen.
+\end{itemize}
+
+Vi er nu klar til at bestemme temperaturkoefficienterne for de tre prober ved en senere undervisningslektion.
+\end{document}

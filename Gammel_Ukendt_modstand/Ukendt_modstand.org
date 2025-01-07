@@ -1,0 +1,26 @@
+#+title: Bestemmelse af ukendt modstand
+#+subtitle: Elektricitet
+#+author: Jacob Debel
+#+date: Fysik B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=3.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+* Motivation
+Det kan godt være, at der findes fine teoretiske formler for, hvordan modstande adderes i hhv. serie- og parallelkoblinger. Dog for at få et fortroligt kendskab til elektriske kredsløb, er det ikke nok med teoretiske beregninger, man er også nødt til at eksperimentere.
+
+I skal derfor bestemme den ukendte modstand i hver af de 3 udleverede kredsløb udelukkende ved at benytte et voltmeter samt de love og regler, I kender fra ellære.
+* Udstyr
+Voltmeter
+Udleverede sammenkoblinger af modstande.
+9V batterier
+
+* Fremgangsmåde:
+Bare giv jer i kast med at måle spændinger forskellige (fornuftige) steder i kredsløbene og beregn så den ukendte modstand.

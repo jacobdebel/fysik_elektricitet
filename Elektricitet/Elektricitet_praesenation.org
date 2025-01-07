@@ -1,0 +1,141 @@
+#+title: Elektricitet
+#+subtitle: 
+#+author: Jacob Debel
+#+date: Fysik B
+# Themes: beige|black|blood|league|moon|night|serif|simple|sky|solarized|white
+#+reveal_theme: night
+#+reveal_title_slide: <h2>%t</h2><h3>%s</h3><h4>%a</h4><h4>%d</h4>
+#+reveal_title_slide_background: ./img/forside.jpeg
+#+reveal_title_slide_background_size: 50%
+#+reveal_default_slide_background:
+#+reveal_extra_options: slideNumber:"c",progress:true,transition:"slide",navigationMode:"default",history:false,hash:true
+# #+reveal_extra_attr: style="color:red"
+#+options: toc:nil num:nil tags:nil timestamp:nil ^:{}
+
+* Elektrisk ladning
+** Av for Søren
+#+begin_export html
+<iframe src="https://phet.colorado.edu/sims/html/john-travoltage/latest/john-travoltage_en.html"
+        width="800"
+        height="500"
+        allowfullscreen>
+</iframe>
+#+end_export
+
+#+reveal_html: <div style="font-size: 60%;">
+#+attr_reveal: :frag (appear)
+- Eksperimenter lidt. Hvad kan I finde ud af?
+#+reveal_html: </div>
+
+** Dette kender I også
+#+begin_export html
+<iframe src="https://phet.colorado.edu/sims/html/balloons-and-static-electricity/latest/balloons-and-static-electricity_en.html"
+        width="800"
+        height="600"
+        allowfullscreen>
+</iframe>
+#+end_export
+#+reveal_html: <div style="font-size: 60%;">
+#+attr_reveal: :frag (appear)
+- Hvad skal I gøre, for at kunne skubbe til den ene ballon med den anden ballon?
+#+reveal_html: </div>
+
+** Ladninger
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+- Symbolet for ladning er $Q$ og måles i SI-enheden $C$ (Coulomb).
+- En *elementarladning* er $e=1.6 \cdot 10^{-19} \,C$.
+- En *elektron* har en ladning på $-e$, mens en *proton* har en ladning på $+e$.
+- Ladninger med *samme* fortegn *frastøder* hinanden.
+- Ladninger med *forskellige* fortegn *tiltrækker* hinanden.
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*Opgave 13.1*
+
+En kobberkugle har en nettoladning på 50 nC.
+
+- Beregn, hvor mange elektroner det svarer til.
+
+*Opgave 13.2*
+
+- Hvor stor en nettoladning har ét mol enkeltladede ioner?
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Coulombs lov
+#+reveal_html: <div style="font-size: 45%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: 60% auto;">
+#+reveal_html: <div>
+#+begin_export html
+<iframe src="https://phet.colorado.edu/sims/html/coulombs-law/latest/coulombs-law_en.html"
+        width="600"
+        height="500"
+        allowfullscreen>
+</iframe>
+#+end_export
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+I skal undersøge, hvordan den elektriske kraft mellem to ladninger afhænger af ladningernes størrelse (og fortegn) samt afstanden mellem ladningerne.
+
+I må kun variere på en størrelse ad gangen. I kan derfor f.eks. gøre følgende:
+
+1. Vælg atomic scale.
+2. Flyt $q_1$ ud til 0 pm og $q_2$ til f.eks. 10 pm. Vælg $q_1=1e$ og $q_2=1e$.
+3. Forøg nu gradvist ladningen på $q_2$ og noter sammenhørende værdier af kraften.
+4. Vælg nu to faste ladninger til $q_1$ og $q_2$, men varier afstanden mellem ladningerner. Noter sammenhørende værdier mellem afstand og kraft.
+5. Plot jeres data i en række x,y-kooridatsystemer og undersøg vha regression, hvilke funktionstyper, som passer bedst til graferne.
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Coulombs lov
+#+reveal_html: <div style="font-size: 60%;">
+$$F = k \cdot \frac{Q_1\cdot Q_2}{r^2}\,,$$
+
+hvor $k=8.988 \cdot 10^9 \frac{N \cdot m^2}{C^2}$ kaldes /Coulombs konstant/, $Q_1$ og $Q_2$ er ladningernes størrelse og $r$ er afstanden mellem ladningerne. Hvis fortegnet på den elektriske kraft er positiv er, frastøder de to ladninger hinanden, og hvis fortegnet er negativt, tiltrækker de hinanden.
+#+reveal_html: </div>
+
+** Elektriske felter
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: 60% auto;">
+#+reveal_html: <div>
+#+begin_export html
+<iframe src="https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_en.html"
+        width="600"
+        height="500"
+        allowfullscreen>
+</iframe>
+#+end_export
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+Det elektriske /felt/ omkring en ladning $Q$ er givet ved
+
+$$E = k \cdot \frac{Q}{r^2}\,.$$
+
+Feltstyrken måles i enheden $\frac{V}{m}$ (volt pr. meter).
+
+Den elektriske kraft på en /testladning/ $q$ er da
+
+$$F = q \cdot E\,.$$
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+** Opgave 13.7
+#+reveal_html: <div style="font-size: 60%;">
+1. Bestem den elektriske kraft mellem en heliumkerne og en elektron i afstanden $1.3\cdot 10^{-10}m$
+2. Bestem feltstyrken fra heliumkernen i samme afstand.
+3. Bestem gravitationskraften mellem heliumkernen og elektronen. Brug Newtons universelle gravitationslov
+   $$F_G = G \cdot \frac{M \cdot m}{r^2}\,,$$
+   Hvor $G= 6.67\cdot 10^{-11} \frac{N \cdot m^2}{kg^2}$ er Newtons universelle gravitationskonstant, $M$ og $m$ er masserne af to objekter, mens $r$ er afstanden mellem de to samme objekter.
+#+reveal_html: </div>
+
+* Strøm, spænding og energi
+
+* Elektristiske kredsløb

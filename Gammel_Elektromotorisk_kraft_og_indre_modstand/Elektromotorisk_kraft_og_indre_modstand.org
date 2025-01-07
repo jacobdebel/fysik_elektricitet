@@ -1,0 +1,60 @@
+#+title: Elektromotorisk kraft & indre modstand
+#+subtitle: Elektricitet
+#+author: Jacob Debel
+#+date: Fysik B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=3.0cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+* Motivation
+Når vi har talt om spændingskilder/batterier, har vi typisk antaget at deres spænding er konstant og således udfører et konstant arbejde per ladning. Dette er dog *ikke* sandt i virkeligheden.
+Tænk på, hvis der skulle trækkes en (uendelige) stor strøm, så skulle batteriet kunne udføre et (uendeligt) stort arbejde. Dette giver komplikationer med loven om energibevarelse.
+I stedet har det vist sig, at hvis man forsøget at trække en stor strøm ud af et batteri, så falder /polspændingen/ (altså spændingen over batteripolerne og dermed også over det tilsluttede kredsløb).
+
+* Teori
+For at beskrive det føromtalte fald i spænding som funktion af strømmen, defineres den elektromotoriske kraft ( emk, $\epsilon$, $U_0$) som polspændingen når der løber en uendelig lille strøm.
+En fysisk spændingsforsyning kan da teoretisk betragtes som en seriekobling af en *superspændingskilde*, som altid yder en spænding på $U_0$ og så en modstand $R_i$ som kaldes den *indre modstand*.
+Forbindes spændingsforsyningen nu til en ydre modstand med resistansen $R_y$, så siger Ohms lov
+
+$$U_0 = R_i \cdot I + R_y \cdot I\,.$$
+
+Dog er $R_y \cdot I=U_p$, hvor $U_P$ er polspændingen og ovenstående ligning kan omskrives til:
+
+\begin{align*}
+U_0 &= R_i \cdot I + U_p \iff \\
+U_p &= U_0 - R_i \cdot I \,.
+\end{align*}
+
+Altså vil polspændingen falde som funktion af strømmen.
+
+Det er denne sammenhæng, I skal undersøge i dette forsøg.
+
+*I skal indsamle data, så vi senere kan bestemme den indre modstand $R_i$ , kortslutningsstrømmen $I_{maks}$ og den elektromotoriske kraft for forskellige almindelige 9 V batterier.*
+
+* Udstyr
+- 1 voltmeter (multimeter sat til at måle spænding)
+- 2 skydepotentiometre/variable modstande (på hhv. $1-10 \Omega$ og $100-1000 \Omega$.)
+- Diverse nye og gamle(brugte) 9V-batterier.
+
+* Fremgangsmåde
+1. Opstil følgende kredsløb (se bort fra amperemeteret. Strømmen kan I beregne i stedet):
+
+   [[./img/kredsloeb.png]]
+
+2. Til de nye 9V-batterier benyttes potentiometeret på $1-10 \Omega$ og til de gamle benyttes $100-1000 \Omega$. Fælles for begge forsøgsopstillinger er at potentiometeret skal starte med at være på den største mulige modstand.
+
+3. Ændr nu på den variable modstand $R$ og notér sammenhørende værdier af $U$ og $R$.
+
+   Beregn her ud fra yderligere strømmen gennem den ydre modstand, $I$.
+
+   Optag ca. 10 målinger jævnt fordelt mellem tomgang og kortsluttet tilstand. *I må dog ikke kortslutte batterierne!!!*
+* Databehandling
+- Indsæt måleresultaterne i et regneark og generer for hvert batteri et plot med $I$ ud af 1. aksen og $U$ op ad 2. aksen.
+- Batteriernes indre modstand kan på en eller anden måde bestemmes ud fra disse plots. Det må I/vi lige tænke os til. Sammen skal vi nok komme frem til noget smart. :)

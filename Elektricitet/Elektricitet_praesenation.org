@@ -137,5 +137,225 @@ $$F = q \cdot E\,.$$
 #+reveal_html: </div>
 
 * Strøm, spænding og energi
+** Strøm(styrke)
+Ikke AI
+
+men
+
+$$\left[ I \right] = A$$
+
+*** AC/DC _Live_ on stage!!
+[[./img/ac_dc.gif]]
+
+[[https://youtu.be/v2AC41dglnM][Musikvideo]]
+
+*** Opsummering
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: 63% auto;">
+#+reveal_html: <div>
+[[./img/stroem_01.jpg]]
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+[[./img/stroem_02.jpg]]
+#+reveal_html: </div>
+#+reveal_html: </div>
+$$\boxed{I = \frac{\Delta Q}{\Delta t}}$$
+- Antal ladninger som passerer et givent tværsnit i en leder(ledning) per tid.
+- Enheden for strøm(styrke) hedder /ampere/ og skrives som A.
+- Per definition løber strømmen fra den positive pol til den negative pol. I virkeligheden er det elektronerne, som vandrer fra den negative pol mod den positive pol.
+#+reveal_html: </div>
+
+*** Opgaver
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*14.1*
+
+I et lyn overføres ladningen 20 C mellem skyen og Jorden. *Hvor stor var den gennemsnitslige strømstyrke, hvis lynes varede 1.2 ms*?
+
+*14.2*
+
+Gennem et tværsnit af en leder passerer i løbet af 10 sekunder elektroner med en samlet ladning på -30 C. *Hvor stor er strømmen*?
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*14.3*
+
+Gennem en leder går en strøm på 8.0 A. *Hvor stor en ladning passere gennem et tværsnit af lederen i løbet af et minut*?
+
+
+*14.4*
+
+En tokamak er en maskine til at fastholde et plasma (ioner og elektroner). Inde i kammeret flyder ladede ioner rundt om centrum. Et tværsnit i maskinens kammer passeres hvert sekund af $8.12 \cdot 10^{24}$ elektroner. *Hvor stor er strømstyrken i plasmaet*?
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+** Spænding(sforskel)
+
+[[./img/scared.gif]]
+
+Arh ikke helt sådan noget spænding.
+
+** Spænding(sforskel)
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+[[./img/spaendingsforskel.jpg]]
+- Neutral elektrisk ledende kugle lades op af den positive plade.
+- Den nu positivt elektrisk ladede kugle skubbes nu mod den negative plade.
+- Kuglen mister elektrisk /potentiel/ energi.
+- Tænk på gravitationel potentiel energi.
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+$$\boxed{U = \frac{\Delta E}{Q}}$$
+- $U$ kaldes *spændingen*, spændingsforskellen eller spændingsfaldet.
+- SI-enheden for spænding er volt $\left[ U \right] = V$.
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+*** Opgaver
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*14.5*
+
+En elektron, der gennemløber et spændingsfald på 1 V, får den elektriske energi $E= 1 e \cdot 1 V$. Denne energi kaldes 1eV, kaldet /elektronvolt/. *Omregn energi 1eV til joule.*
+
+*14.7*
+
+Bestem det spændingsfald, der skal til for at accelere en elektron op til 1 % af lysets hastighed.
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*14.6*
+
+I et bestemt katodestrålerør gennemløber elektroner et spændingsfald på 10.0 kV.
+
+1. Bestem den elektriske energi, en elektron tilføres, både i eV og J.
+2. Hvad bliver elektronens hastighed, hvis den starter fra hvile? (Tip: Bestem først $E_\text{kinetisk}$.
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Batterier
+#+attr_html: :width 30%
+[[./img/batterier.jpg]]
+
+#+reveal_html: <div style="font-size: 60%;">
+Eller
+#+reveal_html: </div>
+
+
+#+attr_html: :width 30%
+[[https://youtu.be/_yHJBDeshPA][file:./img/master-of-puppets_cover.webp]]
+
+** Batterier
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: 60% auto;">
+#+reveal_html: <div>
+#+begin_export html
+<iframe src="https://phet.colorado.edu/sims/html/circuit-construction-kit-dc-virtual-lab/latest/circuit-construction-kit-dc-virtual-lab_en.html"
+        width="600"
+        height="500"
+        allowfullscreen>
+</iframe>
+#+end_export
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+- Batteriet omdanner oplagret kemisk energi til elektrisk energi.
+- Batteriet "løfter" elektroner gennem batteriet og sørger for at erstatte polernes ladninger med nye ladninger.
+- Opbyg et elektrisk kredsløb bestående af et *batteri*, en elektriske *pære* og to *ledninger*.
+- Hvad kan man ændre på i netop denne opstilling?
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+*** Opgaver
+#+reveal_html: <div style="font-size: 60%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*14.8*
+
+Et almindeligt bilbatteri kaldes en akkumulator. En akkumulators /kapacitet/ siger noget om, hvor stor en ladning der kan hentes ud af den, inden den behøver at oplades igen. Et bestemt 12 V-batteri har kapaciteten 44 Ah.
+
+1. Hvor mange coulomb svarer 44 Ah til?
+2. Hvor lag tid tager det at oplade batteriet, hvis strømstyrken er 2.0 A?
+3. Ved normal brug er batteriets spænding nogenlunde konstant. Hvor stor elektrisk energi kan batteriet afgive, når det er fuldt opdaget?
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*14.9*
+
+En gadelampe lyser ved hjælp af et batteri, der oplades af en solcelle. Lampen består af en serieforbindelse af LED-pærer og lyser ved en spænding på 12 V og strømstyrke på 8 A. Fuldt opladet kan batteriet indeholde ladningen 80 Ah.
+
+1. Hvor mange timer kan lampen lyse, når batteriet er fuldt opladet?
+2. Hvad er den samlede effekt af lampen?
+3. Hvor stor elektrisk ladning passere batteriet, hvis lampen lyser i 5 timer?
+#+reveal_html: </div>
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+** Energi og effekt
+#+reveal_html: <div style="font-size: 50%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+#+attr_html: :width 50%
+[[./img/energi_og_effekt.png]]
+- Elektroner i en ledning eller et kredsløb taber hele tiden energi, når de støder ind i metalionerne.
+- Denne energi omdannes til varme.
+- Der afsættes altså energi i ledningen/kredsløbet.
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+- Fra definition på spænding
+  $$U = \frac{\Delta E}{\Delta Q} \to \Delta E = U \cdot \Delta Q$$
+- Fra definitionen på strømstyrke
+  $$I = \frac{\Delta Q}{\Delta t} \to \Delta Q = I \cdot \Delta t$$
+- Sat sammen fås
+  $$\boxed{\Delta E = U \cdot I \cdot \Delta t \quad (\text{Joules lov})}$$
+- Fra definitionen på effekt
+  $$P = \frac{\Delta E}{\Delta t}$$
+- fås
+  $$\boxed{P = U \cdot I}$$
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
+
+*** Opgaver
+#+reveal_html: <div style="font-size: 50%;">
+#+reveal_html: <div style="display: grid; grid-template-columns: auto auto;">
+#+reveal_html: <div>
+*14.11*
+
+I gamle huse er sikringer på 10 A. Det betyder, at en lille ledning i sikringen brænder over, hvis strømstyrken overstiger 10 A. En elkedel tilsluttes stikkontakten med en spænding på 230 V. *Hvor stor er den maksimale effekt, som elkedlen kan levere, uden at sikringen springer?
+
+*14.12*
+
+Gennem en elektrisk motor går en strøm på 0.20 A. Spændingsfaldet over motoren er 55 V. *Hvor meget elektrisk energi omdannes til andre energiformer i løbet af 1 minut?*
+#+reveal_html: </div>
+
+#+reveal_html: <div>
+*14.13*
+
+En pandelampe til orienterinsløbere drives af et 6.0 V-batteri. Pæren har effekten 10 W. *Beregn strømstyrken gennem lampen*.
+
+*14.14*
+
+En Tesla model S leveres med et 22 kW kabel til opladning hjemme hos bilejeren. Bilen indeholder et 85 kWh-batteri.
+
+1. Bestem den tid det tager at oplade et tomt batteri fuldstændigt med kablet.
+2. Hvis kablet tilstuttes en almindelig stikkontakt, der leverer en spænding på 230 volt, hvad bliver da strømstyrken i kablet?
+3. Ved en hastighed på 80 km/t har bilen (om sommeren) en rækkevidde på 618 km. *Bestem elmotorens effekt, når bilen kører med den konstante hastighed 80 km/t.* (Tip: Bestem tidsforbruget ud fra strækningen og hastigheden.)
+#+reveal_html: </div>
+#+reveal_html: </div>
+
+#+reveal_html: </div>
 
 * Elektristiske kredsløb

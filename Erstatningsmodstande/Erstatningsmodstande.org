@@ -1,0 +1,39 @@
+#+title: Erstatningsmodstande
+#+subtitle: Elektricitet
+#+author: Jacob Debel
+#+date: Fysik B
+#+latex_class: article
+#+latex_class_options: [a4paper, 12pt]
+#+language: da
+#+latex_header: \usepackage[danish]{babel}
+#+latex_header: \usepackage{mathtools}
+#+latex_header: \usepackage[margin=2.5cm]{geometry}
+#+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
+#+latex_header_extra: \setlength{\parindent}{0em}
+#+latex_header_extra: \parskip 1.5ex
+#+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
+
+* Motivation
+I skal i denne teoretiske og praktiske øvelse blive mere fortrolige med at sætte modstande sammen i serie- og parallelkoblinger og beregne erstatningsmodstande.
+
+
+* Udstyr
+I har følgende udstyr til rådighed:
+- 1 stk. modstand på $51 \Omega$
+- 1 stk. modstand på $100 \Omega$
+- 1 stk. modstand på $150 \Omega$
+- En spændingsforsyning
+- Et multimeter/voltmeter.
+
+  
+* Forsøgsvejledning
+I skal i første omgang tegne skitser af elektriske kredsløb, som har de ønskede erstatningsmodstande. Efterfølgende skal I sætte kredsløbene op i laboratoriet og tjekke, at I har fået den rigtige erstatningsmodstand.
+
+I skal opstille kredsløb med følgende erstatningsmodstande og tjekke det i praksis:
+
+- $R_\text{samlet} = 201 \, \Omega$
+- $R_\text{samlet} = 27.67\, \Omega$
+- $R_\text{samlet} = 138.06 \, \Omega$
+
+
+Brug et voltmeter og Ohms lov til at måle/beregne erstatningsmodstanden.

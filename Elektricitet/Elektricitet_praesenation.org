@@ -334,7 +334,7 @@ En gadelampe lyser ved hjælp af et batteri, der oplades af en solcelle. Lampen 
 #+reveal_html: <div>
 *14.11*
 
-I gamle huse er sikringer på 10 A. Det betyder, at en lille ledning i sikringen brænder over, hvis strømstyrken overstiger 10 A. En elkedel tilsluttes stikkontakten med en spænding på 230 V. *Hvor stor er den maksimale effekt, som elkedlen kan levere, uden at sikringen springer?
+I gamle huse er sikringer på 10 A. Det betyder, at en lille ledning i sikringen brænder over, hvis strømstyrken overstiger 10 A. En elkedel tilsluttes stikkontakten med en spænding på 230 V. *Hvor stor er den maksimale effekt, som elkedlen kan levere, uden at sikringen springer?*
 
 *14.12*
 

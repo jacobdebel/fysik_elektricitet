@@ -145,9 +145,8 @@ men
 $$\left[ I \right] = A$$
 
 *** AC/DC _Live_ on stage!!
-[[./img/ac_dc.gif]]
+[[https://youtu.be/v2AC41dglnM][file:./img/ac_dc.gif]]
 
-[[https://youtu.be/v2AC41dglnM][Musikvideo]]
 
 *** Opsummering
 #+reveal_html: <div style="font-size: 60%;">

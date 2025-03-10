@@ -11,29 +11,28 @@
 #+latex_header: \hypersetup{colorlinks, linkcolor=black, urlcolor=blue}
 #+latex_header_extra: \setlength{\parindent}{0em}
 #+latex_header_extra: \parskip 1.5ex
+#+LATEX_HEADER_extra: \usepackage{enumitem}
+#+LATEX_HEADER_extra: \setlist{noitemsep}
 #+options: ^:{} tags:nil toc:nil todo:nil num:nil timestamp:nil
-
 * Motivation
 I skal i denne teoretiske og praktiske øvelse blive mere fortrolige med at sætte modstande sammen i serie- og parallelkoblinger og beregne erstatningsmodstande.
 
-
 * Udstyr
 I har følgende udstyr til rådighed:
-- 1 stk. modstand på $51 \Omega$
-- 1 stk. modstand på $100 \Omega$
-- 1 stk. modstand på $150 \Omega$
-- En spændingsforsyning
+- 1 stk. modstand på $100 \Omega$.
+- 1 stk. modstand på $150 \Omega$.
+- 1 stk. modstand på $2200 \Omega$.
+- En spændingsforsyning.
 - Et multimeter/voltmeter.
 
-  
 * Forsøgsvejledning
 I skal i første omgang tegne skitser af elektriske kredsløb, som har de ønskede erstatningsmodstande. Efterfølgende skal I sætte kredsløbene op i laboratoriet og tjekke, at I har fået den rigtige erstatningsmodstand.
 
 I skal opstille kredsløb med følgende erstatningsmodstande og tjekke det i praksis:
 
-- $R_\text{samlet} = 201 \, \Omega$
-- $R_\text{samlet} = 27.67\, \Omega$
-- $R_\text{samlet} = 138.06 \, \Omega$
-
+- $R_\text{erstatning} = 2450 \, \Omega$
+- $R_\text{erstatning} = 58.41\, \Omega$
+- $R_\text{erstatning} = 60.00\, \Omega$
+- $R_\text{erstatning} = 240.43 \, \Omega$
 
 Brug et voltmeter og Ohms lov til at måle/beregne erstatningsmodstanden.
